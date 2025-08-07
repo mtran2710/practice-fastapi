@@ -59,3 +59,9 @@ Kết quả trả về:
   "message": "Todo deleted successfully"
 }
 ```
+
+# Tự chấm bài:
+Sử dụng pytest:
+```bash
+PYTHONPATH=. uv run pytest tests/test_fastapi.py
+```
